@@ -9,4 +9,4 @@ println("the sum of the squares: " + totalSquares)
 val totals = fohnn.sum * fohnn.sum
 println("the square of the sum: " + totals)
 
-println("Ans. "+Math.abs(totalSquares - totals))
+println("Ans. " + Math.abs(totalSquares - totals))

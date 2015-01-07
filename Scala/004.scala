@@ -16,12 +16,9 @@ def isPalindrome(n: Int): Boolean = {
   str == str.reverse
 }
 
-def (n: Int, r: Seq): Seq[Int] = {
-  
-}
-
-val r =  Range(999,900-1,-1)
-r.map(r.map(i => ))
+println("Ans. " +
+  Range(999,900-1,-1).combinations(2).map(i => i.product)
+    .filter(i => isPalindrome(i)).max)
 
 // (0 to 1000000).foreach(i => println(isPalindrome(i)))
 // => real 0m4.148s user  0m2.237s sys 0m1.387s

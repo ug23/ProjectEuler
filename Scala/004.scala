@@ -1,3 +1,7 @@
+// Problem 4
+// Find the largest palindrome made from the product of two 3-digit numbers.
+// (A palindromic number reads the same both ways.)
+
 // 回文数ならtrue
 def isPalindrome(n: Int): Boolean = {
   // 両端から1個ずつ検証していく方法を取ったが、
@@ -17,8 +21,8 @@ def isPalindrome(n: Int): Boolean = {
 }
 
 println("Ans. " +
-  Range(999,900-1,-1).combinations(2).map(i => i.product)
-    .filter(i => isPalindrome(i)).max)
+  Range(999, 900 - 1, -1).combinations(2).map(i => i.product)
+  .filter(i => isPalindrome(i)).max)
 
 // (0 to 1000000).foreach(i => println(isPalindrome(i)))
 // => real 0m4.148s user  0m2.237s sys 0m1.387s

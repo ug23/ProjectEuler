@@ -1,3 +1,5 @@
+// What is the largest prime factor of the number 600851475143 ?
+
 import scala.math._
 
 // implicit classでBigIntにsqrt関数を追加する

@@ -33,7 +33,7 @@ import scala.math._
 // takeWhile:条件文を満たしてる部分
 // forall:すべてを満たしたらtrue
 
-lazy val ps: Stream[Int] =  #:: Stream.from(3).filter(i => 
+lazy val ps: Stream[Int] = 2 #:: Stream.from(3).filter(i => 
   ps.takeWhile(j => j * j <= i).forall(i % _ > 0))
 
 val r = ps(10000)

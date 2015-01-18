@@ -1,8 +1,8 @@
 #ProjectEuler
 =====
 
-ProjectEulerを最初から。
-まずは隗より始めよ。
+https://projecteuler.net
+
 
 ## Scala
 - 基本的に`scala XXX.scala`で実行可能な形式にして書くことにする

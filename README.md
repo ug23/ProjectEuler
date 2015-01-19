@@ -1,5 +1,4 @@
 #ProjectEuler
-=====
 
 https://projecteuler.net
 

@@ -9,13 +9,13 @@
 // NOTE: Once the chain starts the terms are allowed to go above one million.
 
 // メモ化用のmutableなMap
+// 
 val memorizer = scala.collection.mutable.Map.empty[Long, Long]
 
-// 対象のnをもらって保持しておく
-// nに対してコラッツの関数を適用する
-// 適用先がn以下になったらストップ
-// nの遷移回数は最後
+// memorizerに遷移回数をぶち込む
 def trace(i: Long): Unit = {
+
+  // メモってあったらそこでやめてそっちの結果を使う
   def collatz(n: Long): Long = {
     n match {
       case 1 => 1

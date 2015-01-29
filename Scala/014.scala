@@ -9,7 +9,7 @@
 // NOTE: Once the chain starts the terms are allowed to go above one million.
 
 // メモ化用のmutableなMap
-// 
+
 val memorizer = scala.collection.mutable.Map.empty[Long, Long]
 
 // memorizerに遷移回数をぶち込む
